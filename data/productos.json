@@ -1,0 +1,23 @@
+[
+    {
+    "id": 1,
+    "nombre": "Vino Tinto Reserva",
+    "descripcion": "Un vino tinto suave y equilibrado.",
+    "precio": 5000,
+    "plan": "basico"
+    },
+    {
+    "id": 2,
+    "nombre": "Vino Blanco Premium",
+    "descripcion": "Un vino blanco con notas cítricas.",
+    "precio": 10000,
+    "plan": "premium"
+    },
+    {
+    "id": 3,
+    "nombre": "Vino Espumante Élite",
+    "descripcion": "Un espumante con burbujas finas.",
+    "precio": 20000,
+    "plan": "elite"
+    }
+]

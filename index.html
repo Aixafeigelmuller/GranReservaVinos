@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRAN RESERVA vinos</title>
+    <link rel="icon" href="./img/wine-svgrepo-com.svg">
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="./img/WhatsApp Image 2024-08-04 at 12.56.38.jpeg" width="50" height="50" alt="Logo del Club de Vinos">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="club-de-vinos.html">Club de vinos</a></li>
+                    <li><a href="tienda.html">Tienda</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar..." id="search-input">
+            <button onclick="searchWine()">Buscar</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Suscripción a Membresía de Vinos</h1>
+        <form id="subscription-form">
+            <!-- Campos del formulario -->
+            <input type="text" id="nombre" placeholder="Nombre">
+            <input type="email" id="email" placeholder="Email">
+            <input type="text" id="direccion" placeholder="Dirección">
+            <select id="plan"></select>
+            <button type="button" onclick="submitForm()">Suscribirse</button>
+        </form>
+        
+        <div class="container"></div>
+    </div>
+    <script src="./codigo.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+</body>
+</html>
