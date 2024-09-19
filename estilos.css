@@ -20,8 +20,16 @@ header {
     gap: 20px;
 }
 
-.logo img {
-    height: 50px;
+.logo-container {
+    width: 175px; /* Ajusta según tus necesidades */
+    height: 175px; /* Ajusta según tus necesidades */
+    overflow: hidden; /* Esconde cualquier parte de la imagen que se desborde */
+}
+
+.logo-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 nav ul {
